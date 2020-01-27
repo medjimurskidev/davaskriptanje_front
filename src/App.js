@@ -7,6 +7,7 @@ import Homepage from './components/Homepage';
 import Login from './components/Login';
 import Registration from './components/Registration';
 import Profile from './components/Profile';
+import EditUserScren from './screen/EditUserScren';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
        <Header />
       </header>
       <Route path={"/"} exact component={Homepage}></Route>
+      
       <Route path={"/profile"} exact component={Profile}></Route>
+      <Route path={"/edituserscren"} exact component={EditUserScren}></Route>
+
       <Login />
       <Route path={"/registration"} exact component={Registration}></Route>
       </Router>
