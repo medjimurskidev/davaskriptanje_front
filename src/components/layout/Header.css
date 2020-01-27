@@ -1,0 +1,28 @@
+.navbar{
+    border-bottom: 4px dotted lightskyblue;
+    
+}
+.navbar-brand {
+    padding: 0px 10px 0px 10px;
+    font-size: 30px;
+    color: lightskyblue;
+    text-transform: uppercase;
+}
+
+.fa-gamepad {
+    color: lightskyblue;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    border-radius: 0;
+    margin-left: 15px;
+    
+    
+}
+.nav-link {
+    font-size: 18px;
+}
+ 
