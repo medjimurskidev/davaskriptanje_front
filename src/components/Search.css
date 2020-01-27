@@ -1,0 +1,19 @@
+.search {
+
+    border: 1px solid lightskyblue;
+    height: 60px;
+    width: 500px;
+    border-radius: 0;
+    font-size: 30px;
+    padding: 3px 10px;
+
+}
+
+.fa-search {
+    font-size: 40px;
+}
+
+
+.form-inline {
+    width: auto;
+}
