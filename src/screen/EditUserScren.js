@@ -1,16 +1,42 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'reactstrap';
+import { Container,Button,Label,Input, Row, Col, Media } from 'reactstrap';
 
-
+ 
+import './EditUserScren.css';
 
 class EditUserScren extends Component {
+
 
     state = {  }
     render() { 
         return ( 
             <Container>
             <Row>
-              <Col>.col</Col>
+                <Col xs="5"><Media  object data-src="holder.js/64x64" alt="Generic placeholder image" className='user_image' /></Col>
+                <Col xs="7">UserName</Col>
+            </Row>
+            <Row>
+                <Col xs="5"><Button color="primary">upload</Button>{' '}</Col>
+                <Col xs="7"></Col>
+            </Row>
+            <Row>
+                <Col xs="5"> <Input type="password" name="password" id="password" placeholder="password "/></Col>
+                <Col xs="7"></Col>
+            </Row>
+            <Row>
+                <Col xs="5"><Input type="password" name="password" id="repeatPassword" placeholder="Repeat password " /></Col>
+                <Col xs="7"></Col>
+            </Row>
+            <Row>
+                <Col xs="8"></Col>
+                <Col xs="4"><Button color="primary">save</Button>{' '}</Col>
+            </Row>
+
+            {/*
+            <Row>
+           
+        <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+
             </Row>
             <Row>
               <Col>.col</Col>
@@ -42,6 +68,7 @@ class EditUserScren extends Component {
               <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
               <Col sm={{ size: 'auto', offset: 1 }}>.col-sm-auto .offset-sm-1</Col>
             </Row>
+            */}
           </Container>
         );
     }

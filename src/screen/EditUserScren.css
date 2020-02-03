@@ -1,0 +1,32 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    padding: 2rem;
+  }
+
+
+  
+.container .row {
+    margin: 1rem;
+    margin-top: 20px !important;
+
+  }
+
+  .user_image{
+    height:100px;
+    width:100px;
+   }
+
+  /*
+  .container .row > [class^="col-"] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #E5EDF5;
+    border: 1px solid #C9C1D5;
+    color: #5F5F5F;
+  }
+  */
